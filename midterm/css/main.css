@@ -22,3 +22,7 @@ ul.links {
   h1{
     text-align:center;
   }
+
+  #wide {
+    width:100%
+  }
