@@ -1,28 +1,119 @@
-ul.links {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-   
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    padding: 8px;
-    background-color: #dddddd;
-  }
+body{
+  background-color:#b8f7ef;
+}
 
-  p.copyright {
-    float: left;
-  }
+#bigcontainer {
+  margin:0 auto; /* this will center the page */
+  margin-top: -8px; /* there was a small gap on top of the screen so I closed it using this (I think it was <body>'s default margin)*/
+  width:960px; /*  use your width here */
+  background-color: #8fe2c1;
+  font-family: Sans-serif;
+}
 
-  h1{
-    text-align:center;
-  }
+.bigtitle{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+}
 
-  #wide {
-    width:100%
-  }
+#wide {
+  width:100%;
+}
+
+#bigstar{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+#links {
+  list-style-type: none;
+  margin:1px;
+  padding: 0px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+}
+
+#links li{
+  width: 33.3%;
+  display: inline-block;
+  padding: 7px;
+}
+
+.buttons {
+  background-color: #8fe2c1;
+  border: none;
+  color: black;
+  text-decoration: none;
+  font-size: 23px;
+}
+
+#story{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.container{
+  margin: 10px;
+  font-size: 17px;
+}
+
+
+#articletitle{
+  font-size: 31px;
+}
+
+#star{
+  width:15rem;
+  top:10rem;
+  float:left;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+#facttitle{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+#factlist{
+  padding-left: 20px;
+  margin-top: 0;
+}
+
+#contacttitle{
+  font-size: 25px;
+}
+
+#contactinfo{
+  border: 1px solid black;
+  padding: 10px;
+}
+
+#fname, #email{
+  width: 99%;
+  height: 23px;
+}
+
+#message{
+  width: 99%;
+  height: 80px;
+}
+
+#sendbutton{
+  background-color: transparent;
+  padding:10px;
+  text-align: center;
+  font-size: 10px;
+}
+
+#footer{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  text-align: right;
+}
+
