@@ -4,25 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Foldit&family=Nabla&family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 
 <body>
-<img src="images/logo.png" alt="logo">
+<header>
 <nav class="top-home">
 
-<a href="#home">home</a>
-<br>
-<a href="#about">about us</a>
-<br>
-<a href="#service">services</a>
-<br>
-<a href="#team">team</a>
-<br>
-<a href="#contact">contact</a>
-<br>
-<input type="text" placeholder="Search..">
+<ul>
+ <img src="images/logo.png" alt="logo">
+<li><a class="button" href="#home">home</a> </li>
+<li><a class="button" href="#about">about us</a> </li>
+<li><a class="button" href="#service">services</a> </li>
+<li><a class="button" href="#team">team</a></li>
+<li><a class="button" href="#contact">contact</a></li>
 
+<input class="search" type="text" placeholder="Search">
+</ul>
 </nav>
+
+</header>
 
 <div class="welcome">
 <h1 id="home">Welcome To the Three Star Media</h1>
@@ -35,6 +39,8 @@
 <h1 id="about"> About Us</h1>
 <p> Lorem Ipsum once again</p>
 </div>
+
+<section>
 
 <div class="services">
 <h1 id="service">Our Services</h1>
@@ -77,6 +83,8 @@
 
 </div>
 
+</section>
+
 <div class="vision">
 <h1> Our Vision</h1>
 <p> lorem ipsum asidfjdosj</p>
@@ -111,9 +119,10 @@
 <input type="text" id="email"><br>
 <label for="message">Message</label><br>
 <input type="text" id="message"><br>
+<button type="button">Send</button>
 </div>
 
-<div>
+<div class="table">
 <h1> Hours Of Operation </h1>
 <table>
 <tr>
@@ -134,11 +143,15 @@
 </table>
 </div>
 
+<h1>Location</h1>
+
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944269832871!2d-75.75750598777465!3d45.3499372409341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1str!2sca!4v1701046567537!5m2!1str!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 <footer>
 
 <p> &copy; Copyright Three Star Media, 2020</p>
-<p>All Images are taken from <u>unsplash</u></p> 
+<p>All Images are taken from <a class="splash" href="https://unsplash.com">unsplash</a></p> 
+
 </footer>
 
 </body>

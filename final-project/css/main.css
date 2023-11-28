@@ -1,0 +1,40 @@
+body{
+    font-family:"open sans"
+}
+
+
+.top-home{
+    background-color:#222;
+}
+
+ul{
+
+list-style: none;
+}
+
+li {
+    background-color: #222;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
+
+section{
+
+    background-color:#ffe6ac;
+    
+}
+
+
+footer{
+
+    background-color:#222;
+    color:#c78c06;
+
+}
+
+.splash {
+
+    color:#c78c06;
+}
