@@ -14,11 +14,17 @@ list-style: none;
 
 li {
     background-color: #222;
+    color:#c78c06;
     padding: 10px 20px;
     text-align: center;
 }
 
-
+li a:hover {
+    background-color: #c78c06;
+    color:#222;
+    padding: 10px 20px;
+    text-align: center;
+}
 
 section{
 
