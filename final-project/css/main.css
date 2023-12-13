@@ -1,38 +1,389 @@
-body{
-    font-family:"open sans"
+
+
+/*THIS IS THE RESET CODE */ 
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: #222;
+}
+
+#background{
+    background-color: white;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 
+
+
+
+
+/* this is where the REAL CSS begins */
+body{
+    font-family:"open sans";
+    max-width:1200px;
+    margin: 0 auto;
+}
+
+p{
+font-size:20px;
+
+}
+/* this is the mobile approach */
 .top-home{
     background-color:#222;
 }
 
-ul{
-
-list-style: none;
+.numberone{
+    font-weight:bold;
+    font-size:65px;
+    position:absolute;
+    color:white;
+    background-color: rgba(0,0,0,.5);
+    background-size:auto;
+    margin-top:70px;
+    height:25rem;
 }
 
-li {
+.numberonetext{
+
+    position:absolute;
+    margin-top:325px;
+    width:80%;
+    color:white;
+}
+
+#mainbanner{
+    z-index:-3;
+    position:relative;
+    width:100%;
+    height:100%;
+}
+
+.aboutus{
+    background-color:#ffe6ac;
+    margin-bottom:5%;
+    max-width: 100%;
+    width:98%;
+    padding: 1%;
+}
+
+.aboutusimg{
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+
+#serviceheadline{
+ font-weight:bold;
+ font-size:65px;
+
+}
+
+
+
+.servicesimg{
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.teamimg{
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.numbertwo, h1{
+    font-weight:bold;
+    font-size:75px;
+}
+
+.subtitles, h1{
+    font-weight:bold;
+    font-size:25px;
+}
+
+.subtitles{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 35px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+} 
+    
+#thelist{
+    list-style: none;
+    padding: 1%;
+}
+
+#thelist > div{
+    background-color:#c78c06;
+    width: 100%;
+}
+
+#thelist > li {
     background-color: #222;
     color:#c78c06;
-    padding: 10px 20px;
     text-align: center;
-}
-
-li a:hover {
-    background-color: #c78c06;
-    color:#222;
-    padding: 10px 20px;
-    text-align: center;
-}
-
-section{
-
-    background-color:#ffe6ac;
+    width:100%;
+    display:block;
+    line-height: 30px;
     
 }
 
+#thelist > li a:hover {
+    background-color: #c78c06;
+    color:#222;
+    text-align: center;
+    width:100%;
+    display:block;
+    line-height: 30px;
+}
 
+#search{
+    display: flex;
+    width: 100%;
+}
+
+#search > button{
+    padding: 0;
+    background-color:transparent;
+    border-color:#c78c06;
+    display:flex;
+}
+
+#search > input{
+    width: 100%;
+}
+
+#search > image{
+    display: flex;
+}
+
+.welcome{
+    background-image: url(images/main-banner.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    height: auto;
+    color: white;
+
+}
+
+#blackarea{
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+#blackarea > p{
+    margin-top: 3%;
+    font-size: 20px;
+}
+
+#blackarea > h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.services{
+    background-color:#ffe6ac;
+    margin-bottom:5%;
+    max-width: 100%;
+    width:98%;
+    padding: 1%;
+}
+
+.teams{
+    background-color:#ffe6ac;
+    margin-bottom:5%;
+    max-width: 100%;
+    width:98%;
+    padding: 1%;
+}
+
+.wbutton {
+    background-color: #c78c06; 
+    color: #222;
+    padding: 30px 35px; 
+    border: none;
+    display: block;
+    width: fit-content; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px; 
+    margin-top: 1%;
+  }
+
+  .sbutton {
+    background-color: #222; 
+    color: white;
+    padding: 30px 35px;
+    border: none;
+    display: block;
+    width: fit-content; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px; 
+    margin-top: 1%;
+  }
+  
+  .wbutton:hover {
+    background-color: #222; 
+  }
+
+  .sbutton:hover {
+    background-color: #c78c06; 
+  }
+  
+
+#vision{
+    background-image: url(images/vision.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom:5%;
+    max-width: 100%;
+    width:98%;
+    padding: 1%;
+    height:auto;
+    color: white;
+ }
+
+#vision > p{
+    font-size: 15px;
+    margin-bottom: 1%;
+}
+
+#vision > h1{
+    font-size: 35px;
+    font-weight:bolder;
+    text-transform: uppercase;
+    margin-bottom: 1%x;
+}
+
+.sbutton {
+    background-color: #222; 
+    color: white;
+    padding: 30px 35px; 
+    border: none;
+    display: block;
+    width: fit-content; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px; 
+    margin-top: 1%;
+  }
+
+.vbutton {
+    background: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: 30px 35px; 
+    border: 1px;
+    border-color: #c78c06;
+    display: block;
+    width: fit-content; 
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px; 
+    margin-top: 1%;
+    bottom: 0;
+    height: 5%;
+}  
+
+.contacts{
+    padding: 1%;
+}
+
+#fullname, #email{
+    display: flex;
+    width: 98%;
+}
+
+#message{
+    display: flex;
+    width: 98%;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 98%;
+    margin: 1%;
+  }
+  
+table,th,td {
+    padding: 5px;
+    border: 1px solid black;
+  }
+
+.tabletime{
+    background-color: #ffe6ac;
+}
+
+#map{
+    margin: 1%;
+}
+  
 footer{
 
     background-color:#222;
@@ -43,4 +394,138 @@ footer{
 .splash {
 
     color:#c78c06;
+}
+
+#team{
+    font-size: 50px;
+    font-weight:bold;
+}
+
+.desc{
+    margin-top: 2%;
+    border-top:2px solid #c78c06;
+    padding-top: 2%;
+}
+
+#sendbutton{
+    background-color: #222;
+    color: #c78c06;
+}
+
+
+@media screen and (min-width: 760px){
+
+
+/* FLEXBOX */
+#thelist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 10%; 
+}
+
+#thelist > li{
+    display: flex;
+    padding: 10px 10px;
+}
+
+
+#thelist > li {
+    background-color: #222;
+    color:#c78c06;
+    text-align: center;
+    width:100%;
+    display:block;
+    line-height: 30px;
+}
+
+#search > input{
+    width: auto;
+}  
+
+.the-link{
+    padding: 15% 5%;
+}
+
+.welcome{
+    padding: 0% 10%;
+}
+
+#blackarea > p{
+    font-size: 15px;
+} 
+
+#blackarea{
+    margin-top: 5%;
+    margin-bottom: 5%;
+} 
+
+.aboutus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:80%;
+  padding: 1% 10%; 
+}
+
+.aboutusimg{
+  flex: 1;
+  text-align: center; 
+}
+
+.aboutusimg img {
+  max-width: 100%; 
+  height: auto; 
+}
+
+.about-content {
+    flex: 1; 
+    padding-left: 2%; 
+    color: #000; 
+}
+
+#services{
+    display: grid;
+    grid-template-areas:
+    'digital digital digital market market market'
+    'digital digital digital market market market'
+    'video video web web print print'
+    'video video web web print print';
+    gap: 20px; 
+    margin: 20px; 
+}
+
+#digital{
+    grid-area: digital;
+}
+#market{
+    grid-area: market;
+}
+#video{
+    grid-area: video;
+}
+#web{
+    grid-area: web;
+}
+#print{
+    grid-area: print;
+}
+
+#sbutton{
+    bottom: 0%;
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+}
+
+.services p{
+    display: block;
+}
+
+
+.teamimg{
+    bottom: 0;
+}
 }

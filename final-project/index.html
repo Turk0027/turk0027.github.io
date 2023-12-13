@@ -11,161 +11,175 @@
 </head>
 
 <body>
-<header>
-<nav class="top-home">
-
-<ul>
- <img src="images/logo.png" alt="logo">
-<li><a class="the-link" href="#home">home</a> </li>
-<li><a class="the-link" href="#about">about us</a> </li>
-<li><a class="the-link" href="#service">services</a> </li>
-<li><a class="the-link" href="#team">team</a></li>
-<li><a class="the-link" href="#contact">contact</a></li>
-
-<input class="search" type="text" placeholder="Search">
-</ul>
-</nav>
-
-</header>
-
-<div class="welcome">
-<h1 id="home">Welcome To the Three Star Media</h1>
-<p>Lorem Ipsum blah blah blah</p>
-<img src="images/main-banner.jpg" alt="logo">
+<div id="background">
+    <header>
+        <nav class="top-home">
+        
+        <ul id="thelist">
+        <div><img id="ulimage" src="images/logo.png" alt="logo"></div>
+        <li><a class="the-link" href="#home">Home</a> </li>
+        <li><a class="the-link" href="#about">About Us</a> </li>
+        <li><a class="the-link" href="#service">Services</a> </li>
+        <li><a class="the-link" href="#team">Team</a></li>
+        <li><a class="the-link" href="#contact">Contact</a></li>
+        <div id="search"><input type="text" placeholder="Search">
+            <button type="submit"> 
+            <img src="images/magnify.png" height="35"/>
+          </button></div>
+        </ul>
+        </nav>
+        
+        </header>
+        
+        <div class="welcome" style="background-image: url(images/main-banner.jpg);">
+            <div id="blackarea">
+                <h1 >Welcome To the Three Star Media</h1>
+                <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non dignissim risus, non cursus sem. Duis tempus ex ac enim fermentum volutpat. Curabitur turpis ante, hendrerit ut gravida in, maximus id nunc. Etiam condimentum efficitur urna, vel aliquet nisi ornare eget. Duis at aliquam ante. Maec</p>
+                <a href="" class="wbutton">Connect with us</a>
+            </div>
+        </div>
+        
+        
+        <div class="aboutus">
+            <img class="aboutusimg" src="images/about-us.jpg" alt="about">
+           <div class="about-content">
+                <h1 class="numbertwo" id="about"> About Us</h1>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non dignissim risus, non cursus sem. Duis tempus ex ac enim fermentum volutpat. Curabitur turpis ante, hendrerit ut gravida in, maximus id nunc. Etiam condimentum efficitur urna, vel aliquet nisi ornare eget. Duis at aliquam ante. Maecenas dignissim lorem in turpis condimentum, in venenatis mauris commodo.</p>
+                <br>
+                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non dignissim risus, non cursus sem. Duis tempus ex ac enim fermentum volutpat. Curabitur turpis ante, hendrerit ut gravida in, maximus id nunc. </p>
+           </div>
+        </div>
+        
+        
+        <h1 id="serviceheadline">Our Services</h1>
+            <!--the whole services part is put Inside a section-->
+        <section id="services">
+        
+        <div class="services" id="digital">
+            <img class="servicesimg" src="images/digital.jpg" alt="digital-transform">
+            <div class="servicetext">    
+                <h1 class="subtitles">Digital Transformation</h1>
+                <p> lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non dignissim risus, non cursus sem. Duis tempus ex ac enim fermentum volutpat.</p>
+                <a href="" class="sbutton">Digital Plans</a>
+            </div>
+        
+        </div>
+        
+        <div class="services" id="market">
+            <img class="servicesimg" src="images/marketing.jpg" alt="market">
+        <div class="servicetext"> 
+            <h1 class="subtitles">Marketing</h1>
+            <p>Lorem Curabitur turpis ante, hendrerit ut gravida in, maximus id nunc. Etiam condimentum efficitur urna, vel aliquet nisi ornare eget. Duis at aliquam ante. Maec</p>
+            <a href="" class="sbutton">Marketing Plans</a>
+            </div>
+        </div>
+        
+        <div class="services" id="video">
+            <img class="servicesimg" src="images/video.jpg" alt="video">
+            <div class="servicetext"> 
+            <h1 class="subtitles"> Video Production</h1>
+            <p> Curabitur turpis ante, hendrerit ut gravida in, maximus id nunc. Etiam condimentum efficitur urna, vel aliquet nisi ornare eget. Duis at aliquam ante. Maec</p>
+            <a href="" class="sbutton">Video Plans</a>
+            </div>
+        </div>
+        
+        <div class="services" id="web">
+            <img class="servicesimg" src="images/web.jpg" alt="web">
+            <div class="servicetext"> 
+            <h1 class="subtitles"> Web Development</h1>
+            <p> Curabitur turpis ante, henur urna, vel aliquet nisi ornare eget. Duis at aliquam ante. Maec</p>
+            <a href="" class="sbutton">Web plans</a>
+            </div>
+        </div>
+        
+        <div class="services" id="print">
+            <img class="servicesimg" src="images/print.jpg" alt="print">
+            <div class="servicetext"> 
+            <h1 class="subtitles"> Print</h1>
+            <p> ldrerit ut gravida in, maximus id nunc. Etiam condimentum efficit endrerit ut gravida in, maximus id nunc. Etiam condimentum efficitur ur   </p>
+            <a href="" class="sbutton">Print plans</a>
+            </div>
+        </div>
+        
+        </section>
+        
+        <div id="vision" style="background-image: url(images/vision.jpg);">
+            <h1 class="subtitles"> Our Vision</h1>
+            <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non dignissim risus, non cursus sem. , hendrerit ut gravida in, maximus id nunc. Etiam condimentum efficitur urna, vel aliquet nisi ornare eget. Duis at aliquam ante. Maec</p>
+            <a href="" class="vbutton">Learn More</a>
+        <br>
+        <!--this link will also lead you back to top again-->
+        
+        </div>
+        
+        
+        <h1 id="team">Our Team</h1>
+        
+        <br>
+        <div class="teams">
+            <img class="teamimg" src="images/john.jpg" alt="john">
+            <h1 class="subtitles">John Doe</h1>
+            <h2>CEO and Co-owner</h2>
+            <div class="desc">
+                <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non dignissim risus, non cursus sem. , hendrerit ut gravida in, maximus id nunc. Etiam condimentum efficitur urna, vel aliquet nisi ornare eget. Duis at aliquam ante. Maec</p>
+            </div>
+        </div>
+        
+        <div class="teams"> 
+            <img class="teamimg" src="images/bob.jpg" alt="bob">
+            <h1 class="subtitles">Bob Rite</h1>
+            <h2>CEO and Co-owner</h2>
+            <div class="desc">
+            <p>lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce non dignissim risus, non cursus sem. , hendrerit ut gravida in, maximus id nunc. Etiam condimentum efficitur urna, vel aliquet nisi ornare eget. Duis at aliquam ante. Maec</p>
+            </div>
+        </div>
+        
+        <div class="contacts">
+            <h1 class="numbertwo" id="contact">Contact Us</h1>
+            <h1 class="subtitles">Send Us a Message</h1>
+            <label for="fullname">Full Name</label><br>
+            <input type="text" id="fullname"><br>
+            <label for="email">Email</label><br>
+            <input type="text" id="email"><br>
+            <label for="message">Message</label><br>
+            <textarea rows="5" type="text" id="message"></textarea><br>
+            <button type="button" id="sendbutton">Send</button>
+        </div>
+        
+        <div class="table">
+            <h1 class="subtitles"> Hours Of Operation </h1>
+            <table>
+                <tr>
+                <th class="tabletime">Days</th>
+                <th class="tabletime">Hours</th>
+                </tr>
+        
+                <tr>
+                <td>Monday - Friday</td>
+                <td>9 AM - 6 PM</td>
+                </tr>
+        
+                <tr>
+                <td>Saturday - Sunday</td>
+                <td>Closed</td>
+                </tr>
+        
+            </table>
+        </div>
+        
+        <h1 class="subtitles">Location</h1>
+        
+        <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944269832871!2d-75.75750598777465!3d45.3499372409341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1str!2sca!4v1701046567537!5m2!1str!2sca" width="98%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+        <footer>
+        
+        <p> &copy; Copyright Three Star Media, 2020</p>
+        <p>All Images are taken from <a class="splash" href="https://unsplash.com">unsplash</a></p> 
+        
+        <!--I've linked the actual link to unsplash because why not?-->
+        
+        </footer>        
 </div>
-
-<div class="about us">
-<img src="images/about-us.jpg" alt="about">
-<h1 id="about"> About Us</h1>
-<p> Lorem Ipsum once again</p>
-</div>
-
-<section>
-
-    <!--the whole services part is put Inside a section-->
-
-<div class="services">
-<h1 id="service">Our Services</h1>
-<img src="images/digital.jpg" alt="digital-transform">
-<h1>Digital Transformation</h1>
-<p> Lorem Ipsum fdksijgpdfjoiew</p>
-<a href >Digital Plans</a>
-</div>
-
-
-<!-- WARNING: all links are blank and will lead you back to top -->
-
-
-
-<div class="marketing">
-    <img src="images/marketing.jpg" alt="market">
-    <h1>Marketing</h1>
-    <p>Lorem Ipsum odsfoidsfjiughisdrehfigusr</p>
-    <a href>Marketing Plans</a>
-</div>
-
-<br>
-
-<div class="video-production">
-    <img src="images/video.jpg" alt="video">
-    <h1> Video Production</h1>
-    <p> lorem ipsum asidfjdosj</p>
-    <a href>Video Plans</a>
-
-</div>
-
-<div class="web-dev">
-    <img src="images/web.jpg" alt="web">
-    <h1> Web Development</h1>
-    <p> lorem ipsum asidfjdosj</p>
-    <a href>Web plans</a>
-
-</div>
-
-<div class="printer">
-    <img src="images/print.jpg" alt="print">
-    <h1> Print</h1>
-    <p> lorem ipsum asidfjdosj</p>
-    <a href>Print plans</a>
-
-</div>
-
-</section>
-
-<div class="the-vision">
-<h1> Our Vision</h1>
-<p> lorem ipsum asidfjdosj</p>
-<a href>Learn More</a>
-<br>
-
-<!--this link will also lead you back to top again-->
-
-<img src="images/vision.jpg" alt="vision">
-
-</div>
-
-
-<h1 id="team">Our Team</h1>
-<div class="mr-doe">
-<img src="images/john.jpg" alt="john">
-<h1>John Doe</h1>
-<h2>CEO and Co-owner</h2>
-<p> lorem ipsum asidfjdosj</p>
-
-</div>
-
-<div class="mr-rite"> 
-    <img src="images/bob.jpg" alt="bob">
-    <h1>Bob Rite</h1>
-    <h2>CEO and Co-owner</h2>
-    <p> lorem ipsum asidfjdosj</p>
-</div>
-
-<div class="contacts">
-<h1 id="contact">Contact Us</h1>
-<h1>Send Us a Message</h1>
-<label for="fullname">Fullname</label><br>
-<input type="text" id="fullname"><br>
-<label for="email">Email</label><br>
-<input type="text" id="email"><br>
-<label for="message">Message</label><br>
-<input type="text" id="message"><br>
-<button type="button">Send</button>
-</div>
-
-<div class="table">
-<h1> Hours Of Operation </h1>
-<table>
-<tr>
-<th>Days</th>
-<th>Hours</th>
-</tr>
-
-<tr>
-<td>Monday - Friday</td>
-<td>9 AM - 6 PM</td>
-</tr>
-
-<tr>
-<td>Saturday - Sunday</td>
-<td>Closed</td>
-</tr>
-
-</table>
-</div>
-
-<h1>Location</h1>
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.944269832871!2d-75.75750598777465!3d45.3499372409341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1str!2sca!4v1701046567537!5m2!1str!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-<footer>
-
-<p> &copy; Copyright Three Star Media, 2020</p>
-<p>All Images are taken from <a class="splash" href="https://unsplash.com">unsplash</a></p> 
-
-<!--I've linked the actual link to unsplash because why not?-->
-
-</footer>
 
 </body>
 </html>
